@@ -5,7 +5,6 @@ html{
 p{
     text-align:center;
     font-size: large;
-
 }
 h1{
     text-align: center;
@@ -18,4 +17,8 @@ h2{
 h3{
     text-align: center;
     color:darkorange;
+}
+
+a{
+    text-decoration: none;
 }
