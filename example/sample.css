@@ -3,8 +3,6 @@ html{
     text-align: center;
     background-image: url("back.jpg");
     background-size: cover;
-
-
 }
 .example{
     font-style:bold;
@@ -46,4 +44,31 @@ th{
 }
 .about{
     margin:0 auto;
+}
+p{
+    color:blue;
+}
+.test{
+    text-align:center;
+}
+.line{
+    background-color:rosybrown;
+}
+img[alt]{
+    color:darkgreen;
+}
+a[class="low"]{
+    background-color:orange;
+}
+[div~="specified"]{
+    color:cadetblue;
+}
+[class|="attri"]{
+    color:darkviolet;
+}
+[class^="net"]{
+    color:crimson;
+}
+[class$="inter"]{
+    font-size:larger;
 }
