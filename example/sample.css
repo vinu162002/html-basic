@@ -43,10 +43,11 @@ th{
     text-align:center;
 }
 .about{
-    margin:0 auto;
+    display:float;
+
 }
 p{
-    color:blue;
+    color:green;
 }
 .test{
     text-align:center;
@@ -71,4 +72,20 @@ a[class="low"]{
 }
 [class$="inter"]{
     font-size:larger;
+}
+a:link{
+    color:blueviolet;               /*For Unvisit link*/
+}
+a:visited{
+    color:green;                  /*For Visited link*/
+}
+a.pseud:hover{
+    font-size: 50px;
+    color:chartreuse;                /*mousing over the link*/
+}
+a:active{
+    color:darkred;              /*By selecting link*/
+}
+p:first-child i{
+    font-size: large;
 }
