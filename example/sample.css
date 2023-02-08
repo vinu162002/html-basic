@@ -1,7 +1,7 @@
 html{
     background-color:lightgrey;
     text-align: center;
-    background-image: url("back.jpg");
+   /* background-image: url("back.jpg");*/
     background-size: cover;
 }
 .example{
@@ -47,32 +47,10 @@ th{
 
 }
 p{
-    color:green;
-}
-.test{
-    text-align:center;
-}
-.line{
-    background-color:rosybrown;
-}
-img[alt]{
-    color:darkgreen;
-}
-a[class="low"]{
-    background-color:orange;
-}
-[div~="specified"]{
-    color:cadetblue;
-}
-[class|="attri"]{
-    color:darkviolet;
-}
-[class^="net"]{
     color:crimson;
 }
-[class$="inter"]{
-    font-size:larger;
-}
+
+
 a:link{
     color:blueviolet;               /*For Unvisit link*/
 }
@@ -88,4 +66,7 @@ a:active{
 }
 p:first-child i{
     font-size: large;
+}
+p.foo::before{
+    content:url(foo.png);
 }
