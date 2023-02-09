@@ -50,6 +50,15 @@ p.select::selection{
     color:black;
     background-color: hotpink;
 }
+/*Flexbox*/
 .container{
     display:flex;
+}
+.para1{
+    display:flex;
+    background-color: thistle;
+}
+.para{
+    display:flex;
+    background-color: tan;
 }
